@@ -29,8 +29,9 @@ public class Enrollment {
     
     public void setCoefficient(double[] grades){
         double sum = 0;
-        for (int x = 0; x < grades.length; x ++){
-         sum = sum + grades[x];    
+        for (int i = 0; i < grades.length; i ++){
+         sum = sum + grades[i];
+         double partial_result = i / sum;
         }
         this.coefficient = sum /grades.length; 
     }
