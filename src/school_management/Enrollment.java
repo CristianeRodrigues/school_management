@@ -28,11 +28,11 @@ public class Enrollment {
     }
     
     public void setCoefficient(double[] grades){
-        double sum = 0;
+        double sum1 = 0;
         for (int i = 0; i < grades.length; i ++){
-         sum = sum + grades[i];
-         double partial_result = i / sum;
+         sum1 = sum1 + grades[i];
+         double partial_result = i / sum1;
         }
-        this.coefficient = sum /grades.length; 
+        this.coefficient = sum1 /grades.length; 
     }
 }
