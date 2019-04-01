@@ -9,10 +9,10 @@ package school_management;
  *
  * @author Cristiane
  */
-public class Class {
+public class SchoolClass {
     
     
-    //attributes from Class class
+    //attributes from SchoolClass class
     int code;
     String name;
     double credits;
@@ -23,6 +23,7 @@ public class Class {
     }
 
     public int getCode() {
+        System.out.println ("Valid code!");
         return this.code;
     }
     

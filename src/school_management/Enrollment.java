@@ -15,7 +15,7 @@ public class Enrollment {
     double[] grades;
     double coefficient;
     
-    Class Class;
+    SchoolClass Class;
     Student Student;
     Discipline Discipline;
     
