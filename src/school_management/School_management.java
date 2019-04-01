@@ -7,15 +7,18 @@ package school_management;
 
 /**
  *
- * @author Carlos
+ * @author Cristiane
  */
 public class School_management {
 
     /**
      * @param args the command line arguments
      */
+    Student student;
     public static void main(String[] args) {
         // TODO code application logic here
+        Student student = new Student();
+        student.setName("Jonh");
     }
     
 }

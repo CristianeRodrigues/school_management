@@ -35,6 +35,10 @@ public class Class {
     public void setCredits(int credits) {
         this.credits = credits;
     }
+    
+    public void StudentList(){
+        System.out.println(Student.getName());
+    }
 
     public int getCredits() {
         return this.credits;
