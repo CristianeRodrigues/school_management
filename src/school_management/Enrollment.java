@@ -26,8 +26,11 @@ public class Enrollment {
     public long getEnrollment() {
         return this.enrollment;
     }
-    public int getClassCredits(){
+    public double getClassCredits(){
         return Class.credits;
+    }
+     public long getCodeClass(){
+        return Class.getCode();
     }
     
     public void setCoefficient(double[] grades){
