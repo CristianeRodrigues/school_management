@@ -17,18 +17,13 @@ public class Student {
     long ID;
     Date born;
 
-    
-     public String getName() {
-        return this.name;
-    }
-     
     public void setName(String name) {
-        if (name.length() > 0){
-         this.name = name;
-        System.out.println("Valid name");  
-        }  
+        if (name.length() > 0) {
+            this.name = name;
+            System.out.println("Valid name");
+        }
     }
-    
+
     public void setID(long ID) {
         this.ID = ID;
     }
@@ -37,6 +32,12 @@ public class Student {
         return this.ID;
     }
 
+    public String getName() {
+        if (name.length() > 0) {
+            return this.name;
+        }
+        return "invalid name";
+    }
     public void setBorn(Date born) {
         this.born = born;
     }
