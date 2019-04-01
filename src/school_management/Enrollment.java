@@ -26,6 +26,9 @@ public class Enrollment {
     public long getEnrollment() {
         return this.enrollment;
     }
+    public int getClassCredits(){
+        return Class.credits;
+    }
     
     public void setCoefficient(double[] grades){
         double sum1 = 0;
