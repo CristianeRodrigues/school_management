@@ -34,5 +34,6 @@ public class Enrollment {
          double partial_result = i / sum;
         }
         this.coefficient = sum /grades.length; 
+        double a = sum;
     }
 }
