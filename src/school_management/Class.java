@@ -10,10 +10,12 @@ package school_management;
  * @author Cristiane
  */
 public class Class {
-
+    
+    
+    //attributes from Class class
     int code;
     String name;
-    int credits;
+    double credits;
     Student Student;
 
     public void setCode(int code) {
@@ -32,7 +34,7 @@ public class Class {
         return this.name;
     }
     
-    public void setCredits(int credits) {
+    public void setCredits(double credits) {
         this.credits = credits;
     }
     
@@ -40,7 +42,7 @@ public class Class {
         System.out.println(Student.getName());
     }
 
-    public int getCredits() {
+    public double getCredits() {
         return this.credits;
     }
 }
